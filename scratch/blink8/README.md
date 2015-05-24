@@ -5,9 +5,10 @@ This ScratchGPIO example is a scratch parity example for the 8 blinking LEDs fou
 
 ## Prerequisites
 1. Raspberry Pi
-2. [WiringPi](http://wiringpi.com/download-and-install/)
-3. [ScratchGPIO](http://simplesi.net/scratchgpio/)
-4. Understanding the Raspery Pi GPIO pins is important to understanding this code.  Read the chart and explanation raspberry-pi-gpio-pins.pdf in the root level directory of this project to see how pins are referenced differently by WiringPi, Broadcom and GPIO numbers.  
+2. A wiring kit with breadboard, LEDs, jumpers, etc.  [This](http://amzn.com/B00MHK2QGC) is a great one.
+3. [WiringPi](http://wiringpi.com/download-and-install/)
+4. [ScratchGPIO](http://simplesi.net/scratchgpio/)
+5. Understanding the Raspery Pi GPIO pins is important to understanding this code.  Read the chart and explanation raspberry-pi-gpio-pins.pdf in the root level directory of this project to see how pins are referenced differently by WiringPi, Broadcom and GPIO numbers.  
 
 ## Instructions
 1. Wire your breadboard to your Pi in the manner shown in the image file 8led-diagram.png.  The long post of the led needs to be connected to the resistor.  The short post goes to the GPIO port.
